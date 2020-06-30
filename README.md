@@ -1,2 +1,2 @@
 # hangman
-popular hangman game code
+popular hangman game code in python
