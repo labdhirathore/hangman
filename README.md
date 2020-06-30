@@ -9,7 +9,7 @@ def info() :
     print("Hello," +username,"Let's play HANGMAN!")
     time.sleep(1) #wait for 1 second
 
-#defing the words for the game
+#defining the words for the game
 def get_word() :
     words = ['dragontales','shinchan','oswald','noddy','doraemon','mrbean','ninjahatori','kiterestu']
     return random.choice(words)
@@ -82,11 +82,7 @@ def play_game() :
         if chances == 0 :
             #printing you lost
             print("Sorry! No more chances left.You've lost.")
-
-    
-
-
-    
+            
 def main() :
     #calling the method to get info of user
     info()
